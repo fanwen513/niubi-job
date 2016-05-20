@@ -12,7 +12,7 @@ niubi-job是一个具备高可用特性的专门针对定时任务的任务调�
  * 简单易用，降低门槛。
 
 # 如何下载
-##### 当前稳定版本 : 0.9.4.2
+##### 当前稳定版本 : 0.9.5
  * [niubi-job-cluster.zip](http://www.zuoxiaolong.com/download/niubi-job-cluster.zip "niubi-job-cluster.zip")   [Windows版本]
  * [niubi-job-cluster.tar.gz](http://www.zuoxiaolong.com/download/niubi-job-cluster.tar.gz "niubi-job-cluster.tar.gz")   [Unix/Mac版本]
  * [niubi-job-console.war](http://www.zuoxiaolong.com/download/niubi-job-console.war "niubi-job-console.war")   [web控制台war包]
@@ -34,11 +34,16 @@ mvn clean package
  * 开发任务就是这么简单，详见[开发文档](http://www.cnblogs.com/zuoxiaolong/p/niubi-job-2.html "http://www.cnblogs.com/zuoxiaolong/p/niubi-job-2.html")
  * 如果你想了解更多，可以参考[框架设计原理简介](http://www.cnblogs.com/zuoxiaolong/p/niubi-job-3.html "http://www.cnblogs.com/zuoxiaolong/p/niubi-job-3.html")
  * 全新的0.9.4.2介绍，包含了全套[Console控制台教程](http://www.cnblogs.com/zuoxiaolong/p/niubi-job-4.html "http://www.cnblogs.com/zuoxiaolong/p/niubi-job-4.html")
+ * 如果你遇见了问题,请查看[FAQ文档](http://www.cnblogs.com/zuoxiaolong/p/niubi-job-5.html "http://www.cnblogs.com/zuoxiaolong/p/niubi-job-5.html")
 
 # 开源协议(License)
 Niubi Job框架基于开源协议Apache License 2.0。(The Niubi Job Framework is released under version 2.0 of the Apache License.)
 
 # 变更历史
+##### 0.9.5
+ * 修改所有数据库字段的命名,避免与各类数据库的关键字冲突.
+ * 添加重要模块的单元测试,保证项目的稳定性.
+
 ##### 0.9.4.2
  * 修复集群节点缺少guava的BUG.
 
